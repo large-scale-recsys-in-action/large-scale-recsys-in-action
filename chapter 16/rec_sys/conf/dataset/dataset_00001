@@ -1,0 +1,4 @@
+dataset = /home/recsys/chapter16/datasets/
+set_type = tfrecord
+slots = 1,2,3,4,5,6
+label = label:int64

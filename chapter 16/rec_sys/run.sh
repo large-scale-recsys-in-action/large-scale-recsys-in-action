@@ -1,0 +1,10 @@
+nohup python -m lib.main.main --model_name=model_00001 \
+  --dataset=dataset_00001 \
+  --learning_rate=0.05 \
+  --decay_steps=100000 \
+  --decay_rate=0.9 \
+  --preview=true \
+  --start=20220101 \
+  --end=20220131 \
+  --batch_size=512 \
+  --max_steps=1000 > model_00001.log 2>&1 &
